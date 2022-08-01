@@ -23,7 +23,7 @@ if (!defined("EVCF7_PLUGIN_URL"))
 define("EVCF7_BUILD", '1.2');
 
 $plugin = plugin_basename(__FILE__);
-// add_filter( "plugin_action_links_$plugin", 'evcf7_add_plugin_link');
+add_filter( "plugin_action_links_$plugin", 'evcf7_add_plugin_link');
 function evcf7_add_plugin_link( $links ) {
 	$support_link = '<a href="https://geekcodelab.com/contact/" target="_blank" >' . __( 'Support', 'email-verify-one' ) . '</a>';
 	array_unshift( $links, $support_link );
