@@ -3,7 +3,7 @@
 Plugin Name: Email Verify One
 Description: Fill out the contact form 7 and submit it with an email address that is verified.
 Author: Geek Code Lab
-Version: 1.1
+Version: 1.2
 Author URI: https://geekcodelab.com/
 Text Domain : email-verify-one
 Github Plugin URI: geek-samarth/email-verify-one
@@ -20,7 +20,7 @@ if (!defined("EVCF7_PLUGIN_URL"))
     
     define("EVCF7_PLUGIN_URL", plugins_url() . '/' . basename(dirname(__FILE__)));
     
-define("EVCF7_BUILD", '1.1');
+define("EVCF7_BUILD", '1.2');
 
 $plugin = plugin_basename(__FILE__);
 // add_filter( "plugin_action_links_$plugin", 'evcf7_add_plugin_link');
