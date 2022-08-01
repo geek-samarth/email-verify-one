@@ -5,7 +5,6 @@ Tags: email, email verification, cf7 email verification
 Requires PHP: 5.2.4
 Requires at least: 3.0.1
 Tested up to: 6.0.0
-Stable tag: 1.8
 License: GPLv2 or later
 
 Fill out the contact form 7 and submit it with an email address that is verified.
@@ -64,27 +63,6 @@ For Generel Settings go to Contact-> Email Verification. Or go to Plugins-> Inst
 6. Contact form preview
 
 == Changelog ==
-= 1.8 =
- - Fixed new line issue on mail body
- 
-= 1.7 =
- - Fixed language issue on mail(Subject)
-
-= 1.6 =
- - Updated pro features.
- 
-= 1.5 =
- - verfied with cf7 latest version.
- 
-= 1.4 =
- - Released Pro Version.
-
-= 1.3 =
- - Removed verification button after get success message of OTP
- - make dynamic "from" name for OTP mail
- 
-= 1.2 =
- Fixed bug for verification of OTP
  
 = 1.1 =
  Tested upto wp version 5.9
